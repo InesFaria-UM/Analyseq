@@ -1,0 +1,671 @@
+bioinformatica@bioinformatica-VirtualBox:~/Desktop$ docker run --rm -it -v ~/Desktop/:/home quay.io/biocontainers/clustalw:2.1--h6bb024c_4 bash
+bash-4.2# cd /home
+bash-4.2# ls
+align
+bash-4.2# clustalw
+
+
+
+ **************************************************************
+ ******** CLUSTAL 2.1 Multiple Sequence Alignments  ********
+ **************************************************************
+
+
+     1. Sequence Input From Disc
+     2. Multiple Alignments
+     3. Profile / Structure Alignments
+     4. Phylogenetic trees
+
+     S. Execute a system command
+     H. HELP
+     X. EXIT (leave program)
+
+
+Your choice: 1 
+
+
+Sequences should all be in 1 file.
+
+7 formats accepted: 
+NBRF/PIR, EMBL/SwissProt, Pearson (Fasta), GDE, Clustal, GCG/MSF,                  RSF.
+
+
+Enter the name of the sequence file : align
+Sequence format is Pearson
+Sequences assumed to be PROTEIN
+
+
+Sequence 1: NP_001303964.1   287 aa
+Sequence 2: XP_012322878.1   237 aa
+Sequence 3: XP_021565986.1   237 aa
+Sequence 4: XP_025787576.1   237 aa
+Sequence 5: XP_028379827.1   237 aa
+Sequence 6: XP_022453426.1   237 aa
+Sequence 7: XP_023418103.1   237 aa
+Sequence 8: NP_001491.1      372 aa
+Sequence 9: XP_030868121.1   372 aa
+Sequence 10: XP_030673093.1   372 aa
+Sequence 11: XP_028737020.1   372 aa
+Sequence 12: XP_003985902.2   372 aa
+Sequence 13: XP_004628465.1   372 aa
+Sequence 14: XP_023977685.1   372 aa
+Sequence 15: NP_000294.1      246 aa
+Sequence 16: XP_003808345.1   246 aa
+Sequence 17: XP_004057223.1   246 aa
+Sequence 18: NP_001244362.1   246 aa
+Sequence 19: XP_010381939.1   246 aa
+Sequence 20: XP_023081474.1   246 aa
+Sequence 21: XP_026241422.1   246 aa
+
+
+
+ **************************************************************
+ ******** CLUSTAL 2.1 Multiple Sequence Alignments  ********
+ **************************************************************
+
+
+     1. Sequence Input From Disc
+     2. Multiple Alignments
+     3. Profile / Structure Alignments
+     4. Phylogenetic trees
+
+     S. Execute a system command
+     H. HELP
+     X. EXIT (leave program)
+
+
+Your choice: 2
+
+
+
+****** MULTIPLE ALIGNMENT MENU ******
+
+
+    1.  Do complete multiple alignment now Slow/Accurate
+    2.  Produce guide tree file only
+    3.  Do alignment using old guide tree file
+
+    4.  Toggle Slow/Fast pairwise alignments = SLOW
+
+    5.  Pairwise alignment parameters
+    6.  Multiple alignment parameters
+
+    7.  Reset gaps before alignment? = OFF
+    8.  Toggle screen display          = ON
+    9.  Output format options
+    I. Iteration = NONE
+
+    S.  Execute a system command
+    H.  HELP
+    or press [RETURN] to go back to main menu
+
+
+Your choice: 1
+
+Enter a name for the CLUSTAL output file  [align.aln]: 
+Start of Pairwise alignments
+Aligning...
+
+Sequences (1:2) Aligned. Score:  97
+Sequences (1:3) Aligned. Score:  95
+Sequences (1:4) Aligned. Score:  95
+Sequences (1:5) Aligned. Score:  93
+Sequences (1:6) Aligned. Score:  92
+Sequences (1:7) Aligned. Score:  91
+Sequences (1:8) Aligned. Score:  4
+Sequences (1:9) Aligned. Score:  4
+Sequences (1:10) Aligned. Score:  4
+Sequences (1:11) Aligned. Score:  4
+Sequences (1:12) Aligned. Score:  4
+Sequences (1:13) Aligned. Score:  4
+Sequences (1:14) Aligned. Score:  4
+Sequences (1:15) Aligned. Score:  6
+Sequences (1:16) Aligned. Score:  6
+Sequences (1:17) Aligned. Score:  6
+Sequences (1:18) Aligned. Score:  9
+Sequences (1:19) Aligned. Score:  9
+Sequences (1:20) Aligned. Score:  9
+Sequences (1:21) Aligned. Score:  9
+Sequences (2:3) Aligned. Score:  94
+Sequences (2:4) Aligned. Score:  94
+Sequences (2:5) Aligned. Score:  93
+Sequences (2:6) Aligned. Score:  91
+Sequences (2:7) Aligned. Score:  90
+Sequences (2:8) Aligned. Score:  8
+Sequences (2:9) Aligned. Score:  8
+Sequences (2:10) Aligned. Score:  8
+Sequences (2:11) Aligned. Score:  10
+Sequences (2:12) Aligned. Score:  10
+Sequences (2:13) Aligned. Score:  13
+Sequences (2:14) Aligned. Score:  10
+Sequences (2:15) Aligned. Score:  7
+Sequences (2:16) Aligned. Score:  8
+Sequences (2:17) Aligned. Score:  8
+Sequences (2:18) Aligned. Score:  8
+Sequences (2:19) Aligned. Score:  8
+Sequences (2:20) Aligned. Score:  8
+Sequences (2:21) Aligned. Score:  8
+Sequences (3:4) Aligned. Score:  94
+Sequences (3:5) Aligned. Score:  91
+Sequences (3:6) Aligned. Score:  91
+Sequences (3:7) Aligned. Score:  91
+Sequences (3:8) Aligned. Score:  8
+Sequences (3:9) Aligned. Score:  8
+Sequences (3:10) Aligned. Score:  8
+Sequences (3:11) Aligned. Score:  11
+Sequences (3:12) Aligned. Score:  8
+Sequences (3:13) Aligned. Score:  8
+Sequences (3:14) Aligned. Score:  11
+Sequences (3:15) Aligned. Score:  8
+Sequences (3:16) Aligned. Score:  8
+Sequences (3:17) Aligned. Score:  8
+Sequences (3:18) Aligned. Score:  8
+Sequences (3:19) Aligned. Score:  8
+Sequences (3:20) Aligned. Score:  8
+Sequences (3:21) Aligned. Score:  8
+Sequences (4:5) Aligned. Score:  93
+Sequences (4:6) Aligned. Score:  94
+Sequences (4:7) Aligned. Score:  93
+Sequences (4:8) Aligned. Score:  8
+Sequences (4:9) Aligned. Score:  8
+Sequences (4:10) Aligned. Score:  8
+Sequences (4:11) Aligned. Score:  11
+Sequences (4:12) Aligned. Score:  8
+Sequences (4:13) Aligned. Score:  8
+Sequences (4:14) Aligned. Score:  10
+Sequences (4:15) Aligned. Score:  8
+Sequences (4:16) Aligned. Score:  8
+Sequences (4:17) Aligned. Score:  8
+Sequences (4:18) Aligned. Score:  8
+Sequences (4:19) Aligned. Score:  8
+Sequences (4:20) Aligned. Score:  8
+Sequences (4:21) Aligned. Score:  8
+Sequences (5:6) Aligned. Score:  91
+Sequences (5:7) Aligned. Score:  91
+Sequences (5:8) Aligned. Score:  5
+Sequences (5:9) Aligned. Score:  5
+Sequences (5:10) Aligned. Score:  5
+Sequences (5:11) Aligned. Score:  5
+Sequences (5:12) Aligned. Score:  5
+Sequences (5:13) Aligned. Score:  5
+Sequences (5:14) Aligned. Score:  4
+Sequences (5:15) Aligned. Score:  8
+Sequences (5:16) Aligned. Score:  8
+Sequences (5:17) Aligned. Score:  8
+Sequences (5:18) Aligned. Score:  8
+Sequences (5:19) Aligned. Score:  8
+Sequences (5:20) Aligned. Score:  8
+Sequences (5:21) Aligned. Score:  8
+Sequences (6:7) Aligned. Score:  91
+Sequences (6:8) Aligned. Score:  11
+Sequences (6:9) Aligned. Score:  11
+Sequences (6:10) Aligned. Score:  11
+Sequences (6:11) Aligned. Score:  11
+Sequences (6:12) Aligned. Score:  10
+Sequences (6:13) Aligned. Score:  9
+Sequences (6:14) Aligned. Score:  10
+Sequences (6:15) Aligned. Score:  7
+Sequences (6:16) Aligned. Score:  7
+Sequences (6:17) Aligned. Score:  7
+Sequences (6:18) Aligned. Score:  7
+Sequences (6:19) Aligned. Score:  7
+Sequences (6:20) Aligned. Score:  7
+Sequences (6:21) Aligned. Score:  8
+Sequences (7:8) Aligned. Score:  8
+Sequences (7:9) Aligned. Score:  8
+Sequences (7:10) Aligned. Score:  8
+Sequences (7:11) Aligned. Score:  8
+Sequences (7:12) Aligned. Score:  8
+Sequences (7:13) Aligned. Score:  8
+Sequences (7:14) Aligned. Score:  8
+Sequences (7:15) Aligned. Score:  8
+Sequences (7:16) Aligned. Score:  8
+Sequences (7:17) Aligned. Score:  8
+Sequences (7:18) Aligned. Score:  8
+Sequences (7:19) Aligned. Score:  8
+Sequences (7:20) Aligned. Score:  8
+Sequences (7:21) Aligned. Score:  8
+Sequences (8:9) Aligned. Score:  99
+Sequences (8:10) Aligned. Score:  99
+Sequences (8:11) Aligned. Score:  97
+Sequences (8:12) Aligned. Score:  98
+Sequences (8:13) Aligned. Score:  97
+Sequences (8:14) Aligned. Score:  97
+Sequences (8:15) Aligned. Score:  9
+Sequences (8:16) Aligned. Score:  9
+Sequences (8:17) Aligned. Score:  9
+Sequences (8:18) Aligned. Score:  9
+Sequences (8:19) Aligned. Score:  10
+Sequences (8:20) Aligned. Score:  10
+Sequences (8:21) Aligned. Score:  9
+Sequences (9:10) Aligned. Score:  99
+Sequences (9:11) Aligned. Score:  97
+Sequences (9:12) Aligned. Score:  97
+Sequences (9:13) Aligned. Score:  96
+Sequences (9:14) Aligned. Score:  96
+Sequences (9:15) Aligned. Score:  9
+Sequences (9:16) Aligned. Score:  9
+Sequences (9:17) Aligned. Score:  9
+Sequences (9:18) Aligned. Score:  9
+Sequences (9:19) Aligned. Score:  10
+Sequences (9:20) Aligned. Score:  10
+Sequences (9:21) Aligned. Score:  9
+Sequences (10:11) Aligned. Score:  97
+Sequences (10:12) Aligned. Score:  97
+Sequences (10:13) Aligned. Score:  96
+Sequences (10:14) Aligned. Score:  96
+Sequences (10:15) Aligned. Score:  9
+Sequences (10:16) Aligned. Score:  9
+Sequences (10:17) Aligned. Score:  9
+Sequences (10:18) Aligned. Score:  9
+Sequences (10:19) Aligned. Score:  10
+Sequences (10:20) Aligned. Score:  10
+Sequences (10:21) Aligned. Score:  9
+Sequences (11:12) Aligned. Score:  96
+Sequences (11:13) Aligned. Score:  96
+Sequences (11:14) Aligned. Score:  95
+Sequences (11:15) Aligned. Score:  9
+Sequences (11:16) Aligned. Score:  9
+Sequences (11:17) Aligned. Score:  9
+Sequences (11:18) Aligned. Score:  9
+Sequences (11:19) Aligned. Score:  10
+Sequences (11:20) Aligned. Score:  10
+Sequences (11:21) Aligned. Score:  9
+Sequences (12:13) Aligned. Score:  96
+Sequences (12:14) Aligned. Score:  97
+Sequences (12:15) Aligned. Score:  9
+Sequences (12:16) Aligned. Score:  9
+Sequences (12:17) Aligned. Score:  9
+Sequences (12:18) Aligned. Score:  9
+Sequences (12:19) Aligned. Score:  10
+Sequences (12:20) Aligned. Score:  10
+Sequences (12:21) Aligned. Score:  9
+Sequences (13:14) Aligned. Score:  95
+Sequences (13:15) Aligned. Score:  8
+Sequences (13:16) Aligned. Score:  8
+Sequences (13:17) Aligned. Score:  8
+Sequences (13:18) Aligned. Score:  4
+Sequences (13:19) Aligned. Score:  9
+Sequences (13:20) Aligned. Score:  9
+Sequences (13:21) Aligned. Score:  4
+Sequences (14:15) Aligned. Score:  9
+Sequences (14:16) Aligned. Score:  9
+Sequences (14:17) Aligned. Score:  9
+Sequences (14:18) Aligned. Score:  9
+Sequences (14:19) Aligned. Score:  10
+Sequences (14:20) Aligned. Score:  10
+Sequences (14:21) Aligned. Score:  9
+Sequences (15:16) Aligned. Score:  98
+Sequences (15:17) Aligned. Score:  98
+Sequences (15:18) Aligned. Score:  98
+Sequences (15:19) Aligned. Score:  98
+Sequences (15:20) Aligned. Score:  97
+Sequences (15:21) Aligned. Score:  95
+Sequences (16:17) Aligned. Score:  99
+Sequences (16:18) Aligned. Score:  98
+Sequences (16:19) Aligned. Score:  98
+Sequences (16:20) Aligned. Score:  97
+Sequences (16:21) Aligned. Score:  95
+Sequences (17:18) Aligned. Score:  99
+Sequences (17:19) Aligned. Score:  99
+Sequences (17:20) Aligned. Score:  98
+Sequences (17:21) Aligned. Score:  95
+Sequences (18:19) Aligned. Score:  99
+Sequences (18:20) Aligned. Score:  98
+Sequences (18:21) Aligned. Score:  95
+Sequences (19:20) Aligned. Score:  99
+Sequences (19:21) Aligned. Score:  95
+Sequences (20:21) Aligned. Score:  95
+Enter name for new GUIDE TREE           file   [align.dnd]: 
+
+Guide tree file created:   [align.dnd]
+
+There are 20 groups
+Start of Multiple Alignment
+
+Aligning...
+Group 1: Sequences:   2      Score:8108
+Group 2: Sequences:   3      Score:8099
+Group 3: Sequences:   2      Score:7996
+Group 4: Sequences:   5      Score:8001
+Group 5: Sequences:   6      Score:8020
+Group 6: Sequences:   7      Score:7985
+Group 7: Sequences:   2      Score:5359
+Group 8: Sequences:   2      Score:5359
+Group 9: Sequences:   4      Score:5347
+Group 10: Sequences:   2      Score:5368
+Group 11: Sequences:   6      Score:5343
+Group 12: Sequences:   7      Score:5289
+Group 13: Sequences:  14      Score:1803
+Group 14: Sequences:   2      Score:5047
+Group 15: Sequences:   3      Score:4954
+Group 16: Sequences:   4      Score:4972
+Group 17: Sequences:   5      Score:4970
+Group 18: Sequences:   6      Score:4927
+Group 19: Sequences:   7      Score:4916
+Group 20: Sequences:  21      Score:1530
+Alignment Score 100528
+
+
+
+Consensus length = 380 
+
+CLUSTAL-Alignment file created  [align.aln]
+
+
+CLUSTAL 2.1 multiple sequence alignment
+
+
+NP_001491.1         -MAHAPARCPSARGSGDGEMGKPR-NVALITGITGQDGSYLAEFLLEKGYEVHGIVRRSS
+XP_030868121.1      -MAHAPARCPSARGSGDGEMGKPR-NVALITGITGQDGSYLAEFLLEKGYEVHGIVRRSS
+XP_030673093.1      -MAHAPASCPSARGSGDGEMGKPR-NVALITGITGQDGSYLAEFLLEKGYEVHGIVRRSS
+XP_028737020.1      -MAHAPASCPSFRGSGDGEMGKPR-KVALITGITGQDGSYLAEFLLEKGYEVHGIVRRSS
+XP_004628465.1      -MAHAPARCPSPRGSGDGDVGKTR-KVALITGITGQDGSYLAEFLLEKGYEVHGIVRRSS
+XP_003985902.2      -MAHAAVRCPSARGSGDGEMGKPR-KVALITGITGQDGSYLAEFLLEKGYEVHGIVRRSS
+XP_023977685.1      -MAQAAARCPSSRGSGDGETGKPR-KVALITGITGQDGSYLAEFLLEKGYEVHGIVRRSS
+NP_000294.1         MAAPGPALCLFD---VDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLG
+XP_003808345.1      MAAPGPALCLFD---VDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLG
+XP_004057223.1      MAAPGPALCLFD---VDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLG
+NP_001244362.1      MAAPGPALCLFD---VDGTLTAPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLG
+XP_010381939.1      MAAPGPALCLFD---VDGTLTAPRQKITKEMDDFLQNLRQKIKIGVVGGSDFEKVQEQLG
+XP_023081474.1      MAAPAPALCLFD---VDGTLTAPRQKITKEMDDFLQNLRQKIKIGVVGGSDFEKVQEQLG
+XP_026241422.1      MAASGPVLCLFD---VDGTLTSPRQKITKEMDDFLQKLRQKIKIGVVGGSDFEKVQEQLG
+NP_001303964.1      -MASLEVSRSPRRSRRELEVRSPR---QNKYSVLLPTYNERENLPLIVWLLVKSFSESGI
+XP_012322878.1      -MASLEMSRSPPRSRRDLEVRSTR---QDKYSVLLPTYNERENLPLIVWLLVKSFSESGI
+XP_028379827.1      -MASKEARRTPPKSRRRPEGRDPR---QDKYSVLLPTYNERENLPLIVWLLVKSFSESEI
+XP_025787576.1      -MASEEASGSPRRSRREPEGRVLR---QDKYSVLLPTYNERENLPLIVWLLVKSFSESGI
+XP_021565986.1      -MASLELSRSPLRSRREPEVCSAG---QDKYSVLLPTYNERENLPLIVWLLVKSFSESGI
+
+Press [RETURN] to continue or  X  to stop: 
+XP_023418103.1      -MASMEAGVTPAKSRREPEGRPSA---RDKYSVLLPTYNERENLPLIVWLLVKCFSESGF
+XP_022453426.1      -MASGEASGLSTRSPREPELRTPR---QDKYSVLLPTYNERENLPLIVWLLVKSFSESGF
+                      *                            .          :: :     .. . .   
+
+NP_001491.1         SFNTGRIEHLYKNPQAHIEGNMKLHYGD---LTDSTCLVKIINEVKPTEIYNLGAQSHVK
+XP_030868121.1      SFNTGRIEHLYKNPQAHIEGNMKLHYGD---LTDSTCLVKIINEVKPTEIYNLGAQSHVK
+XP_030673093.1      SFNTGRIEHLYKNPQAHIEGNMKLHYGD---LTDSTCLVKIINEVKPTEIYNLGAQSHVK
+XP_028737020.1      SFNTGRIEHLYKNPQAHIEGNMKLHYGD---LTDSTCLVKIINEVKPTEIYNLGAQSHVK
+XP_004628465.1      SFNTGRIEHLYKNPQAHTEGNMKLHYGD---LTDSTCLVKIINEVKPTEIYNLGAQSHVK
+XP_003985902.2      SFNTGRIEHLYKNPQAHIEGNMKLHYGD---LTDSTCLVKIINEVKPTEIYNLGAQSHVK
+XP_023977685.1      SFNTGRIEHLYKNPQAHIEGNMKLHYGD---LTDSTCLVKIINEVKPTEIYNLGAQSHVK
+NP_000294.1         NDVVEKYDYVFPE-----NGLVAYKDGK---LLCRQNIQSHLGEALIQDLINYCLSYIAK
+XP_003808345.1      NDVVEKYDYVFPE-----NGLVAYKDGK---LLCKQNIQSHLGEALIQDLINYCLSYIAK
+XP_004057223.1      NDVVEKYDYVFPE-----NGLVAYKDGK---LLCKQNIQSHLGEALIQDLINYCLSYIAK
+NP_001244362.1      NDVVEKYDYVFPE-----NGLVAYKDGK---LLCKQNIQSHLGEALIQDLINYCLSYIAK
+XP_010381939.1      NDVVEKYDYVFPE-----NGLVAYKDGK---LLCKQNIQSHLGEALIQDLINYCLSYIAK
+XP_023081474.1      NDVVEKYDYVFPE-----NGLVAYKDGK---LLCKQNIQSHLGEALIQDLINYCLSYIAK
+XP_026241422.1      NDVVERYDYVFPE-----NGLVAYKDGK---LLCKQNIQGHLGEALIQDLINYCLSYIAK
+NP_001303964.1      NYEIIIIDDGSPDGTRDVAEQLEKIYGSDRILLRPREKKLGLGTAYIHGMKHATGNYIII
+XP_012322878.1      NYEIIIIDDGSPDGTRDVAEQLEKIYGSDRILLRPREKKLGLGTAYIHGMKHATGNYIII
+XP_028379827.1      NYEIIIIDDGSPDGTRDVAEQLEKIYGSDRILLRPREKKLGLGTAYIHGMKHATGNYIII
+XP_025787576.1      SYEIIIIDDGSPDGTRDVAEQLEKIYGSDKILLRPREKKLGLGTAYIHGMKHATGNYIII
+
+Press [RETURN] to continue or  X  to stop: 
+XP_021565986.1      NYEIVIIDDGSPDGTRDVAEQLEKIYGSDKILLRPREKKLGLGTAYIHGMQHATGNYIII
+XP_023418103.1      NYEIIIIDDGSPDGTRDVAEQLEKIYGSDKILLRPREKKLGLGTAYIHGMKHATGNYIII
+XP_022453426.1      NYEIIIIDDGSPDGTRDVAEQLEKIYGSDKILLRPREQKLGLGTAYIHGVKHATGNHIII
+                    .      :    :        :    *.   *         :. .    : :   .    
+
+NP_001491.1         ISFDLAEY---TADVDGVGTLRLLDAVKTCGLINSVKFYQASTSELYGKVQEIPQKETTP
+XP_030868121.1      ISFDLAEY---TADVDGVGTLRLLDAVKTCGLIDSVKFYQASTSELYGKVQEIPQKETTP
+XP_030673093.1      ISFDLAEY---TADVDGVGTLRLLDAVKTCGLINSVKFYQASTSELYGKVQEIPQKETTP
+XP_028737020.1      ISFDLAEY---TADVDGVGTLRLLDAIKTCGLINSVKFYQASTSELYGKVQEIPQKETTP
+XP_004628465.1      ISFDLAEY---TADVDGVGTLRLLDAVKTCGLINSVKFYQASTSELYGKVQEIPQKETTP
+XP_003985902.2      ISFDLAEY---TADVDGVGTLRLLDAVKTCGLINSVKFYQASTSELYGKVQEIPQKETTP
+XP_023977685.1      ISFDLAEY---TADVDGVGTLRLLDAVKTCGLINSVKFYQASTSELYGKVQEIPQKETTP
+NP_000294.1         IKLPKKRG---TFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKEN--------------
+XP_003808345.1      IKLPKKRG---TFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKEN--------------
+XP_004057223.1      IKLPKKRG---TFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKEN--------------
+NP_001244362.1      VKLPKKRG---TFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKEN--------------
+XP_010381939.1      IKLPKKRG---TFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKEN--------------
+XP_023081474.1      IKLPKKRG---TFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKEN--------------
+XP_026241422.1      IKLPKKRG---TFIEFRNGMLNVSPIGRSCSQEERIEFYELDKKEN--------------
+NP_001303964.1      MDADLSHHPKFIPEFIRKQKEGNFDIVSGTRYKGNGGVYGWDLKRKIIS------DGVLP
+XP_012322878.1      MDADLSHHPKFIPEFIRKQKEGNFDIVSGTRYKGNGGVYGWDLKRKII------------
+XP_028379827.1      MDADLSHHPKFIPEFIRKQKEGNFDIVSGTRYKGNGGVYGWDLKRKLI------------
+
+Press [RETURN] to continue or  X  to stop: 
+XP_025787576.1      MDADLSHHPKFIPEFIRKQKEGNFDIVSGTRYKGNGGVYGWDLKRKII------------
+XP_021565986.1      MDADLSHHPKFIPEFIRKQKEGNFDIVSGTRYKGNGGVYGWDLKRKII------------
+XP_023418103.1      MDADLSHHPKFIPEFIRKQKESNFDIVSGTRYKGNGGVYGWDLKRKII------------
+XP_022453426.1      MDADLSHHPKFIPEFIRKQKEGNFDIVSGTRYKGNGGVYGWDLKRKII------------
+                    :.    .                              .*  . ..               
+
+NP_001491.1         FYPRSPYGAAKLYAYWIVVNFREAYNLFAVNGILFNHESPRRGANFVTRKISRSVAKIYL
+XP_030868121.1      FYPRSPYGAAKLYAYWIVVNFREAYNLFAVNGILFNHESPRRGANFVTRKISRSVAKIYL
+XP_030673093.1      FYPRSPYGAAKLYAYWIVVNFREAYNLFAVNGILFNHESPRRGANFVTRKISRSVAKIYL
+XP_028737020.1      FYPRSPYGAAKLYAYWIVVNFREAYNLFAVNGILFNHESPRRGANFVTRKISRSVAKIYL
+XP_004628465.1      FYPRSPYGAAKLYAYWIVVNFREAYNLFAVNGILFNHESPRRGANFVTRKISRSVAKIYL
+XP_003985902.2      FYPRSPYGAAKLYAYWIVVNFREAYNLFAVNGILFNHESPRRGANFVTRKISRSVAKIYL
+XP_023977685.1      FYPRSPYGAAKLYAYWIVVNFREAYNLFAVNGILFNHESPRRGANFVTRKISRSVAKIYL
+NP_000294.1         ----------------------------------------------IRQKFVADLRKEFA
+XP_003808345.1      ----------------------------------------------IRQKFVADLRKEFA
+XP_004057223.1      ----------------------------------------------IRQKFVADLRKEFA
+NP_001244362.1      ----------------------------------------------IRQKFVADLRKEFA
+XP_010381939.1      ----------------------------------------------IRQKFVADLRKEFA
+XP_023081474.1      ----------------------------------------------IRQKFVADLRKEFA
+XP_026241422.1      ----------------------------------------------IRQNFVADLQKEFA
+NP_001303964.1      CCPGWSLLGSSDPAILASWDYSRGANFLTQILLRPGASDLTGSFRLYRKEVLEKLIEKCV
+XP_012322878.1      --------------------------------------------RLYRKEVLEKLIEKCV
+
+Press [RETURN] to continue or  X  to stop: 
+XP_028379827.1      --------------------------------------------RLYRKEVLQKLIEKCV
+XP_025787576.1      --------------------------------------------RLYRKEVLQKLIEKCV
+XP_021565986.1      --------------------------------------------RLYRKEVLQKLIEKCV
+XP_023418103.1      --------------------------------------------RLYKKEVLQKLIEKCV
+XP_022453426.1      --------------------------------------------RLYRKEVLQKLIEKCV
+                                                                    ::.  .: :   
+
+NP_001491.1         GQLECFSLGNLDAKRDWGHAKDYVEAMWLMLQNDEPEDFVIATGEVHSVREFVEKSFLHI
+XP_030868121.1      GQLECFSLGNLDAKRDWGHAKDYVEAMWLMLQNDEPEDFVIATGEVHSVREFVEKSFLHI
+XP_030673093.1      GQLECFSLGNLDAKRDWGHAKDYVEAMWLMLQNDEPEDFVIATGEVHSVREFVEKSFLHI
+XP_028737020.1      GQLECFSLGNLDAKRDWGHAKDYVEAMWLMLQNDEPEDFVIATGEVHSVREFVEKSFMHI
+XP_004628465.1      GQLECFSLGNLDAKRDWGHAKDYVEAMWLMLQNDEPEDFVIATGEVHSVREFVEKSFMHI
+XP_003985902.2      GQLECFSLGNLDAKRDWGHAKDYVEAMWLMLQNDEPEDFVIATGEVHSVREFVEKSFLHI
+XP_023977685.1      GQLECFSLGNLDAKRDWGHARDYVEAMWLMLQSDEPEDFVIATGEVHSVREFVEKSFLHI
+NP_000294.1         GKGLTFSIG---GQISFDVFPDGWDKRYCLRHVEN--------DGYKTIYFFGDKTMP--
+XP_003808345.1      GKGLTFSIG---GQISLDVFPDGWDKRYCLRHVEN--------DGYKTIYFFGDKTMP--
+XP_004057223.1      GKGLTFSIG---GQISFDVFPDGWDKRYCLRHVEN--------DGYKTIYFFGDKTMP--
+NP_001244362.1      GKGLTFSIG---GQISFDVFPDGWDKRYCLRHVEN--------DGYKTIYFFGDKTMP--
+XP_010381939.1      GKGLTFSIG---GQISFDVFPDGWDKRYCLRHVEN--------DGYKTIYFFGDKTMP--
+XP_023081474.1      GKGLTFSIG---GQISFDVFPDGWDKRYCLRHVEN--------DGYKTIYFFGDKTMP--
+XP_026241422.1      GRGLTFSIG---GQISFDVFPDGWDKRYCLRHVEN--------DGYKTIYFFGDKTMP--
+NP_001303964.1      SKGYVFQMEMIVRARQLNYTIGEVPISFVDR-------------------VYGESKLG--
+
+Press [RETURN] to continue or  X  to stop: 
+XP_012322878.1      SKGYVFQMEMIVRARQLNYTIGEVPISFVDR-------------------VYGESKLG--
+XP_028379827.1      SKGYVFQMEMIVRARQLNYSVGEVPISFVDR-------------------VYGESKLG--
+XP_025787576.1      SKGYVFQMEMIVRARQLNYTIGEVPISFVDR-------------------VYGESKLG--
+XP_021565986.1      SKGYVFQMEMIVRARQLNYTIGEVPISFVDR-------------------VYGESKLG--
+XP_023418103.1      SKGYVFQMEMIIRARQLNYTIGEVPISFVDR-------------------VYGESKLG--
+XP_022453426.1      SKGYVFQMEMIVRARQLNYTVGEVPISFVDR-------------------VYGESKLG--
+                    .:   *.:       . .   .     :                       : :..:   
+
+NP_001491.1         GKTIVWEGKNENEVGRCKETGKVHVTVDLKYYRPTEVDFLQGDCTKAKQKLNWKPRVAFD
+XP_030868121.1      GKTIVWEGKNENEVGRCKETGKVHVTVDLKYYRPTEVDFLQGDCTKAKQKLNWKPRVAFD
+XP_030673093.1      GKTIVWEGKNENEVGRCKETGKVHVTVDLKYYRPTEVDFLQGDCTKAKQKLNWKPRVAFD
+XP_028737020.1      GKTIVWEGKNENEVGRCKETGKVHVTVDLKYYRPTEVDFLQGDCSKAKQKLNWEPRVAFD
+XP_004628465.1      GKTIVWEGKNENEVGRCKETGKIHVKVDLKYYRPTEVDFLQGDCTKAKQKLNWKPRVAFD
+XP_003985902.2      GKTIVWEGKNENEVGRCKETGKIHVTVDLKYYRPTEVDFLQGDCTKAKQKLSWKPRVAFD
+XP_023977685.1      GKTIVWEGENENEVGRCKETGKVHVTVDLKYYRPTEVDFLQGDCTKAKQKLSWKPRVAFD
+NP_000294.1         -------GGNDHEIFTDPRTMGYSVTAPEDTRRICELLFS--------------------
+XP_003808345.1      -------GGNDHEIFTDPRTMGYSVTAPEDTRRICEMLFS--------------------
+XP_004057223.1      -------GGNDHEIFTDPRTVGYSVTAPEDTRRICEMLFS--------------------
+NP_001244362.1      -------GGNDHEIFTDPRTVGYSVTAPEDTRRICEELFS--------------------
+XP_010381939.1      -------GGNDHEIFTDPRTVGYSVTAPEDTRRICEELFS--------------------
+XP_023081474.1      -------GGNDHEIFTDPRTVGYSVTAPEDTRRICEELFS--------------------
+XP_026241422.1      -------GGNDHEIFTDPRTVGYTVTAPEDTRRICEELFS--------------------
+
+Press [RETURN] to continue or  X  to stop: 
+NP_001303964.1      --------GNEIVSFLKGLLTLFATT----------------------------------
+XP_012322878.1      --------GNEIVSFLRGLLTLFATT----------------------------------
+XP_028379827.1      --------GNEIVSFLKGLLTLFATT----------------------------------
+XP_025787576.1      --------GNEIVSFLKGLLTLFATT----------------------------------
+XP_021565986.1      --------GNEIVSFLKGLLTLFATT----------------------------------
+XP_023418103.1      --------GNEIVSFLKGLLTLFATT----------------------------------
+XP_022453426.1      --------GNEIVSFLKGLLTLFATT----------------------------------
+                             *:             ..                                  
+
+NP_001491.1         ELVREMVHADVELMRTNPNA
+XP_030868121.1      ELVREMVHADVELMRTNPNA
+XP_030673093.1      ELVREMVHADVELMRTNPNA
+XP_028737020.1      ELVKEMVQADVELMRTNPNA
+XP_004628465.1      ELVREMVQADVELMRTNPTA
+XP_003985902.2      ELVREMVDADVELMRNNPNA
+XP_023977685.1      ELVREMVDADVELMSTNPNA
+NP_000294.1         --------------------
+XP_003808345.1      --------------------
+XP_004057223.1      --------------------
+NP_001244362.1      --------------------
+XP_010381939.1      --------------------
+XP_023081474.1      --------------------
+
+Press [RETURN] to continue or  X  to stop: 
+XP_026241422.1      --------------------
+NP_001303964.1      --------------------
+XP_012322878.1      --------------------
+XP_028379827.1      --------------------
+XP_025787576.1      --------------------
+XP_021565986.1      --------------------
+XP_023418103.1      --------------------
+XP_022453426.1      --------------------
+                                        
+
+Press [RETURN] to continue: 
+
+
+
+****** MULTIPLE ALIGNMENT MENU ******
+
+
+    1.  Do complete multiple alignment now Slow/Accurate
+    2.  Produce guide tree file only
+    3.  Do alignment using old guide tree file
+
+    4.  Toggle Slow/Fast pairwise alignments = SLOW
+
+    5.  Pairwise alignment parameters
+    6.  Multiple alignment parameters
+
+    7.  Reset gaps before alignment? = OFF
+    8.  Toggle screen display          = ON
+    9.  Output format options
+    I. Iteration = NONE
+
+    S.  Execute a system command
+    H.  HELP
+    or press [RETURN] to go back to main menu
+
+
+Your choice: 
+
+
+
+ **************************************************************
+ ******** CLUSTAL 2.1 Multiple Sequence Alignments  ********
+ **************************************************************
+
+
+     1. Sequence Input From Disc
+     2. Multiple Alignments
+     3. Profile / Structure Alignments
+     4. Phylogenetic trees
+
+     S. Execute a system command
+     H. HELP
+     X. EXIT (leave program)
+
+
+Your choice: 4
+
+
+
+****** PHYLOGENETIC TREE MENU ******
+
+
+    1.  Input an alignment
+    2.  Exclude positions with gaps?        = OFF
+    3.  Correct for multiple substitutions? = OFF
+    4.  Draw tree now
+    5.  Bootstrap tree
+    6.  Output format options
+    7.  Clustering algorithm = NJ
+
+    S.  Execute a system command
+    H.  HELP
+    or press [RETURN] to go back to main menu
+
+
+Your choice: 4
+
+Enter name for PHYLIP     tree output file   [align.ph]: 
+
+Phylogenetic tree file created:   [align.ph]
+
+
+
+****** PHYLOGENETIC TREE MENU ******
+
+
+    1.  Input an alignment
+    2.  Exclude positions with gaps?        = OFF
+    3.  Correct for multiple substitutions? = OFF
+    4.  Draw tree now
+    5.  Bootstrap tree
+    6.  Output format options
+    7.  Clustering algorithm = NJ
+
+    S.  Execute a system command
+    H.  HELP
+    or press [RETURN] to go back to main menu
+
+
+Your choice: exit
+
+
+Unrecognised Command
+
+
+
+
+****** PHYLOGENETIC TREE MENU ******
+
+
+    1.  Input an alignment
+    2.  Exclude positions with gaps?        = OFF
+    3.  Correct for multiple substitutions? = OFF
+    4.  Draw tree now
+    5.  Bootstrap tree
+    6.  Output format options
+    7.  Clustering algorithm = NJ
+
+    S.  Execute a system command
+    H.  HELP
+    or press [RETURN] to go back to main menu
+
+
+Your choice: x
+
+
+
+ **************************************************************
+ ******** CLUSTAL 2.1 Multiple Sequence Alignments  ********
+ **************************************************************
+
+
+     1. Sequence Input From Disc
+     2. Multiple Alignments
+     3. Profile / Structure Alignments
+     4. Phylogenetic trees
+
+     S. Execute a system command
+     H. HELP
+     X. EXIT (leave program)
+
+
+Your choice: x
+bash-4.2# ls
+align      align.aln  align.dnd  align.ph
+bash-4.2# exit
+exit
+
